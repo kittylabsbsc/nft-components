@@ -5,7 +5,7 @@ import { useMediaContext } from "../context/useMediaContext";
 
 export const PricingString = ({
   pricing,
-  showUSD = true,
+  showUSD = false,
 }: {
   pricing: PricingInfo;
   showUSD?: boolean;
